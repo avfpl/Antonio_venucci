@@ -1,0 +1,442 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,600");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/63de2a19adcdfbdea71f52fc.63de2a1b241dcc1f34c43086.CWFe4pJ.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.group-3 {
+  height: 37px;
+  width: 238px;
+}
+
+.newsletter {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 500px;
+}
+
+.logo {
+  height: 27px;
+  min-width: 63px;
+  position: relative;
+}
+
+.join-our-newsletter {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.form {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  position: relative;
+}
+
+.text-input {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  margin-bottom: -1.00px;
+  margin-left: -1.00px;
+  margin-top: -1.00px;
+  padding: 12px;
+  position: relative;
+}
+
+.placeholder {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.by-subscribing-you-a {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: relative;
+}
+
+.span1 {
+  text-decoration: underline;
+}
+
+.links {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  position: relative;
+}
+
+.quick-links {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.x-links {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.link {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  padding: 8px 0px;
+  position: relative;
+}
+
+.place-1 {
+  flex: 1;
+  line-height: 21px;
+}
+
+.womens-footwear {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.womeens-accessories {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.invitation-form {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.follow-us {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.link-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  padding: 8px 0px;
+}
+
+.instagram {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.linked-in {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.logo-1 {
+  height: 27px;
+  min-width: 382px;
+  overflow: hidden;
+  position: relative;
+}
+
+.business-details {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.office-91-129-460 {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-left: -42px;
+  margin-right: -78.00px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.gstin-06-aawca7877-n1 {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+}
+
+.links-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  gap: 40px;
+  padding: 0px 435px 0px 0px;
+  position: relative;
+}
+
+.office-91-129-460-1 {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-left: -22px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.x2022-antonio-venuc {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer-links-item {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.link-3 {
+  align-self: stretch;
+  position: relative;
+}
+
+.mens {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.handcrafted-by-skill {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.create-a-unique-foot {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+}
+
+.our-dedication-to-su {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+}
+
+.from-initial-design {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+}
+
+
+
+
+.button_nav,
+.button2_nav,
+.column1_nav,
+.content_nav {
+  flex-direction: row;
+  align-items: center;
+}
+
+.button2_nav {
+  background-color: var(--deep-blue);
+  border: 1px solid var(--deep-blue);
+  display: none;
+  padding: var(--padding-5xs) var(--padding-xl);
+  justify-content: center;
+  color: var(--white);
+}
+
+
+.column_nav,
+.nav-link-dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.column_nav {
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+
+.column1_nav,
+.content_nav {
+  display: flex;
+}
+.column1_nav {
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.content_nav {
+  align-self: stretch;
+  background-color: var(--refresh);
+  height: 72px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0 var(--padding-45xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.navbar-5,
+.navbar-child {
+  position: absolute;
+  overflow: hidden;
+}
+.navbar-5 {
+  top: -0.5px;
+  left: 0;
+  background-color: var(--white);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navbar-child {
+  height: 47.27%;
+  width: 14.87%;
+  top: 26.36%;
+  right: 79.86%;
+  bottom: 26.36%;
+  left: 5.27%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.en {
+  position: absolute;
+  top: 23.5px;
+  left: 1398px;
+  line-height: 150%;
+  color: var(--black);
+}
+.blog,
+.navbar {
+  position: relative;
+  position: relative;
+  width: 100%;
+  height: 4566px;
+  display: flex;
+  text-align: left;
+  font-size: var(--text-regular-semi-bold-size);
+  color: var(--black);
+  font-family: var(--text-small-link);
+
+}
+.navbar {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 71px;
+  color: var(--deep-blue);
+} 
+
+.image-1 {
+  width: 159px;
+  height: 38px;
+}
+
+.button_nav {
+  border: 1px solid var(--deep-blue);
+  display: flex;
+  padding: var(--padding-5xs) var(--padding-xl);
+  justify-content: center;
+}

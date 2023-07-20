@@ -1,0 +1,28 @@
+/* screen - slider-dots */
+
+.slider-dots {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 8px;
+  min-height: 8px;
+  min-width: 56px;
+  position: relative;
+  width: 100%;
+}
+
+.slider-dots .dot {
+  background-color: var(--black);
+  border-radius: 4px;
+  height: 8px;
+  min-width: 8px;
+  position: relative;
+}
+
+.slider-dots .slider-dots-item {
+  background-color: var(--stack);
+  border-radius: 4px;
+  height: 8px;
+  min-width: 8px;
+  position: relative;
+}

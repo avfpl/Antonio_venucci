@@ -1,0 +1,12 @@
+/* screen - slider-dots */
+
+.slider-dots {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 8px;
+  min-height: 8px;
+  min-width: 56px;
+  position: relative;
+  width: 100%;
+}

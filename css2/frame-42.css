@@ -1,0 +1,74 @@
+/* screen - frame-42 */
+
+.frame-42 {
+  border: 1px none;
+  flex-direction: column;
+  gap: 38px;
+  min-width: 745.37px;
+  overflow-x: hidden;
+}
+
+.frame-42 .frame-35 {
+  height: 41.42px;
+  min-width: 745.37px;
+  position: relative;
+}
+
+.frame-42 .frame-80 {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-42 .tailored-manufacturi {
+  color: var(--link-water);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.frame-42 .frame-81 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-42 .button {
+  border: 1px solid;
+  border-color: var(--white);
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: -1.00px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  margin-top: -1.00px;
+  padding: 12px 24px;
+  width: fit-content;
+}
+
+.frame-42 .button-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame {
+  align-items: center;
+  display: flex;
+  position: relative;
+}

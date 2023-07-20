@@ -1,0 +1,764 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:500,400,700,600");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/63de2a19adcdfbdea71f52fc.63de2a1b241dcc1f34c43086.CWFe4pJ.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.frame-11 {
+  height: 37.31px;
+  min-width: 238.05px;
+  position: relative;
+}
+
+.nav-link-dropdown {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.chevron-down {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.group-4 {
+  background-color: var(--link-water);
+  border-radius: 35px;
+  height: 70px;
+  min-width: 70px;
+  position: relative;
+}
+
+.layer_1-1 {
+  height: 43px;
+  left: 13px;
+  position: absolute;
+  top: 13px;
+  width: 43px;
+}
+
+.customization {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.layer_1-2 {
+  height: 37px;
+  left: 17px;
+  position: absolute;
+  top: 16px;
+  width: 37px;
+}
+
+.sustainability {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.layer_1-3 {
+  height: 38px;
+  left: 18px;
+  position: absolute;
+  top: 16px;
+  width: 36px;
+}
+
+.end-to-end-solutions {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.dot {
+  background-color: var(--black);
+  border-radius: 4px;
+  height: 8px;
+  min-width: 8px;
+  position: relative;
+}
+
+.slider-dots-item {
+  background-color: var(--stack);
+  border-radius: 4px;
+  height: 8px;
+  min-width: 8px;
+  position: relative;
+}
+
+.news-media {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.get-the-latest-updat {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 57.6px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.card {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.info {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.category {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.address {
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.blog-title-heading-will-go-here {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  margin-top: -1.00px;
+  position: relative;
+  /* white-space: nowrap; */
+}
+
+.icon-chevron-right {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.span1 {
+  text-decoration: underline;
+}
+
+.group-27 {
+  align-items: flex-start;
+  display: flex;
+  gap: 80px;
+  height: 1325px;
+  min-width: 1312px;
+}
+
+.frequently-asked-questions {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 57.6px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.have-a-question-che {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+}
+
+.accordion {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 732px;
+}
+
+.do-you-offer-custom {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.yes-we-offer-custom {
+  align-self: stretch;
+  height: 60px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+}
+
+.group-12 {
+  height: 100px;
+  margin-right: -2.00px;
+  min-width: 734px;
+  position: relative;
+}
+
+.do-you-offer-private-label-options {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.r-pr {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 63px;
+  width: 732px;
+}
+
+.group-1 {
+  height: 133px;
+  margin-right: -2.00px;
+  min-width: 734px;
+  position: relative;
+}
+
+.what-is-your-minimum-order-quantity {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.our-minimum-order-qu {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.group-14 {
+  height: 98px;
+  margin-right: -2.00px;
+  min-width: 734px;
+  position: relative;
+}
+
+.what-materials-do-yo {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.what-is-your-lead-time-for-production {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.lead-times-for-produ {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.how-do-you-ensure-qu {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.we-have-a-strict-qua {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.group-17 {
+  height: 103px;
+  margin-right: -2.00px;
+  min-width: 734px;
+  position: relative;
+}
+
+.can-you-provide-samp {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.yes-we-can-provide {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.group {
+  height: 179px;
+  margin-right: -2.00px;
+  min-width: 734px;
+  position: relative;
+}
+
+.how-long-will-it-tak {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.our-standard-shippin {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.how-long-will-it-tak-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.our-standard-shippin-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.how-can-i-get-in-tou {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.you-can-contact-our {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.we-align-with-your-b {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 57.6px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.group-3 {
+  height: 37px;
+  width: 238px;
+}
+
+.newsletter {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 500px;
+}
+
+.join-our-newsletter {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.form {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  position: relative;
+}
+
+.text-input {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  margin-bottom: -1.00px;
+  margin-left: -1.00px;
+  margin-top: -1.00px;
+  padding: 12px;
+  position: relative;
+}
+
+.by-subscribing-you-a {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: relative;
+}
+
+.quick-links {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.womens-footwear {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.womeens-accessories {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.place-1 {
+  flex: 1;
+  line-height: 21px;
+}
+
+.invitation-form {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.follow-us {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.link-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  padding: 8px 0px;
+}
+
+.icon-instagram {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.instagram {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.linked-in {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.business-details {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.office-91-129-460 {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-left: -42px;
+  margin-right: -78.00px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.gstin-06-aawca7877-n1 {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+}
+
+.office-91-129-460-1 {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-left: -42px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.x2022-antonio-venuc {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer-links-item {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.icon-linked-in-3 {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.link-3 {
+  align-self: stretch;
+  position: relative;
+}
+
+.mens {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.x-links {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* nav bar */
+
+.button_nav,
+.button2_nav,
+.column1_nav,
+.content_nav {
+  flex-direction: row;
+  align-items: center;
+}
+
+.button2_nav {
+  background-color: var(--deep-blue);
+  border: 1px solid var(--deep-blue);
+  display: none;
+  padding: var(--padding-5xs) var(--padding-xl);
+  justify-content: center;
+  color: var(--white);
+}
+
+
+.column_nav,
+.nav-link-dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.column_nav {
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+
+.column1_nav,
+.content_nav {
+  display: flex;
+}
+.column1_nav {
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.content_nav {
+  align-self: stretch;
+  background-color: var(--refresh);
+  height: 72px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0 var(--padding-45xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.navbar-5,
+.navbar-child {
+  position: absolute;
+  overflow: hidden;
+}
+.navbar-5 {
+  top: -0.5px;
+  left: 0;
+  background-color: var(--white);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navbar-child {
+  height: 47.27%;
+  width: 14.87%;
+  top: 26.36%;
+  right: 79.86%;
+  bottom: 26.36%;
+  left: 5.27%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.en {
+  position: absolute;
+  top: 23.5px;
+  left: 1398px;
+  line-height: 150%;
+  color: var(--black);
+}
+.blog,
+.navbar {
+  position: relative;
+  position: relative;
+  width: 100%;
+  height: 4566px;
+  display: flex;
+  text-align: left;
+  font-size: var(--text-regular-semi-bold-size);
+  color: var(--black);
+  font-family: var(--text-small-link);
+
+}
+.navbar {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 71px;
+  color: var(--deep-blue);
+} 
+
+.image-1 {
+  width: 159px;
+  height: 38px;
+}
+
+.button_nav {
+  border: 1px solid var(--deep-blue);
+  display: flex;
+  padding: var(--padding-5xs) var(--padding-xl);
+  justify-content: center;
+}

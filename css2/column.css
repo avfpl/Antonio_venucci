@@ -1,0 +1,45 @@
+/* screen - column */
+
+.column {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  min-width: 292px;
+  position: relative;
+}
+
+.column .group-45 {
+  background-color: var(--white);
+  border-radius: 50px;
+  height: 100px;
+  min-width: 100px;
+  position: relative;
+}
+
+.column .layer_1 {
+  height: 62px;
+  left: 24px;
+  position: absolute;
+  top: 19px;
+  width: 52px;
+}
+
+.column .title {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.column .section-title {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}

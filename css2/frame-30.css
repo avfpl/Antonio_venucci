@@ -1,0 +1,660 @@
+/* screen - frame-30 */
+
+.frame-30 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  min-width: 1439.09px;
+  position: relative;
+}
+
+.frame-30 .blog-34 {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(218, 227, 234) 0%, rgb(255, 255, 255) 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 75px 64px;
+  position: relative;
+  width: 1439px;
+}
+
+.frame-30 .group-41 {
+  height: 926px;
+  margin-right: -1.00px;
+  min-width: 1312px;
+  position: relative;
+}
+
+.frame-30 .section-title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 272px;
+  position: absolute;
+  top: 0;
+  width: 768px;
+}
+
+.frame-30 .news-media {
+  color: var(--cloud-burst);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-30 .content-1 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.frame-30 .get-the-latest-updat {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 57.6px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.frame-30 .lorem-ipsum-dolor-si-1 {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+}
+
+.frame-30 .content-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  left: 0;
+  position: absolute;
+  top: 307px;
+  width: fit-content;
+}
+
+.frame-30 .row {
+  align-items: flex-start;
+  display: flex;
+  gap: 32px;
+  position: relative;
+  width: 1312px;
+}
+
+.frame-30 .placeholder-image-1 {
+  align-self: stretch;
+  height: 300px;
+  min-width: 416px;
+  object-fit: cover;
+  position: relative;
+}
+
+.frame-30 .content {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.frame-30 .info {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-30 .frame-61 {
+  background-color: var(--wild-sand);
+  padding: 4px 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-30 .category {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-30 .address {
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-30 .title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 416px;
+}
+
+.frame-30 .blog-title-heading-will-go-here {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-30 .lorem-ipsum-dolor-si {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+}
+
+.frame-30 .button {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-30 .button-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame-30 .icon-chevron-right {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.frame-30 .placeholder-image {
+  align-self: stretch;
+  height: 300px;
+  min-width: 416px;
+  object-fit: cover;
+  position: relative;
+}
+
+.frame-30 .category-1 {
+  color: var(--cloud-burst);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-30 .button-2 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: -1.00px;
+  padding: 12px 24px;
+}
+
+.frame-30 .group-52 {
+  height: 2294px;
+  min-width: 1439.09px;
+  position: relative;
+}
+
+.frame-30 .group-51 {
+  align-items: flex-start;
+  display: flex;
+  height: 776px;
+  left: 64px;
+  min-width: 1312px;
+  position: absolute;
+  top: 0;
+}
+
+.frame-30 .frame-26 {
+  flex-direction: column;
+  gap: 80px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-30 .content-3 {
+  height: 196px;
+  min-width: 1312px;
+  position: relative;
+}
+
+.frame-30 .a-culture-of-individ {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 57.6px;
+  position: absolute;
+  top: -1px;
+  width: 342px;
+}
+
+.frame-30 .content-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  left: 506px;
+  position: absolute;
+  top: 0;
+  width: 806px;
+}
+
+.frame-30 .if-youre-passionate {
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+  width: 806px;
+}
+
+.frame-30 .actions {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  padding: 16px 0px 0px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-30 .button-3 {
+  align-items: center;
+  background-color: var(--cloud-burst);
+  border: 1px solid;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: -2.00px;
+  margin-left: -2.00px;
+  margin-right: -2.00px;
+  margin-top: -2.00px;
+  padding: 12px 24px;
+}
+
+.frame-30 .button-4 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: -1.00px;
+  margin-top: -1.00px;
+  white-space: nowrap;
+}
+
+.frame-30 .placeholder-image-2 {
+  height: 500px;
+  min-width: 1312px;
+  position: relative;
+}
+
+.frame-30 .frame-29 {
+  gap: 10px;
+  left: 0;
+  position: absolute;
+  top: 828px;
+  width: 1439px;
+}
+
+.frame-30 .faq-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  gap: 80px;
+  height: 1466px;
+  justify-content: center;
+  margin-right: -0.91px;
+  padding: 112px 64px;
+  position: relative;
+  width: 1440px;
+}
+
+.frame-30 .group-28 {
+  height: 1325px;
+  margin-bottom: -83.00px;
+  min-width: 1312px;
+  position: relative;
+}
+
+.frame-30 .group-27 {
+  align-items: flex-start;
+  display: flex;
+  gap: 80px;
+  height: 1325px;
+  min-width: 1312px;
+}
+
+.frame-30 .section-title-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 500px;
+}
+
+.frame-30 .frequently-asked-questions {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 57.6px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.frame-30 .have-a-question-che {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+}
+
+.frame-30 .button-5 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--cloud-burst);
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: -1.00px;
+  margin-left: -1.00px;
+  padding: 12px 24px;
+}
+
+.frame-30 .accordion {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 732px;
+}
+
+.frame-30 .accordion-item {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.frame-30 .divider {
+  align-self: stretch;
+  background-color: var(--casper);
+  height: 1px;
+  min-width: 732px;
+  position: relative;
+}
+
+.frame-30 .title-1 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.frame-30 .do-you-offer-custom {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-30 .icon {
+  height: 32px;
+  min-width: 32px;
+  position: relative;
+}
+
+.frame-30 .yes-we-offer-custom {
+  align-self: stretch;
+  height: 60px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+}
+
+.frame-30 .group-12 {
+  height: 100px;
+  margin-right: -2.00px;
+  min-width: 734px;
+  position: relative;
+}
+
+.frame-30 .overlap-group {
+  height: 100px;
+}
+
+.frame-30 .accordion-item-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 732px;
+}
+
+.frame-30 .do-you-offer-private-label-options {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-30 .r-pr {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 63px;
+  width: 732px;
+}
+
+.frame-30 .group-1 {
+  height: 133px;
+  margin-right: -2.00px;
+  min-width: 734px;
+  position: relative;
+}
+
+.frame-30 .what-is-your-minimum-order-quantity {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-30 .our-minimum-order-qu {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.frame-30 .group-14 {
+  height: 98px;
+  margin-right: -2.00px;
+  min-width: 734px;
+  position: relative;
+}
+
+.frame-30 .overlap-group1 {
+  height: 98px;
+}
+
+.frame-30 .what-materials-do-yo {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-30 .what-is-your-lead-time-for-production {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-30 .lead-times-for-produ {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.frame-30 .how-do-you-ensure-qu {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-30 .we-have-a-strict-qua {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.frame-30 .group-17 {
+  height: 103px;
+  margin-right: -2.00px;
+  min-width: 734px;
+  position: relative;
+}
+
+.frame-30 .can-you-provide-samp {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-30 .yes-we-can-provide {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.frame-30 .group {
+  height: 179px;
+  margin-right: -2.00px;
+  min-width: 734px;
+  position: relative;
+}
+
+.frame-30 .how-long-will-it-tak {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-30 .our-standard-shippin {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.frame-30 .how-long-will-it-tak-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-30 .our-standard-shippin-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.frame-30 .how-can-i-get-in-tou {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-30 .you-can-contact-our {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 73px;
+  width: 732px;
+}
+
+.frame-30 .button-6 {
+  position: relative;
+  width: fit-content;
+}
+
+.frame-30 .frame {
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-30 .overlap {
+  position: relative;
+  width: 732px;
+}

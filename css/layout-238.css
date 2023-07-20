@@ -1,0 +1,104 @@
+/* screen - layout-238 */
+
+.layout-238 {
+  align-items: center;
+  background-color: var(--link-water);
+  border: 1px none;
+  display: flex;
+  gap: 48px;
+  min-height: 599px;
+  min-width: 1440px;
+  padding: 112px 64px;
+  position: relative;
+  width: 100%;
+}
+
+.layout-238 .column {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 32px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 36px;
+  height: 372px;
+  padding: 30px;
+  position: relative;
+}
+
+.layout-238 .layer_1 {
+  height: 31px;
+  left: 22px;
+  position: absolute;
+  top: 20px;
+  width: 25px;
+}
+
+.layout-238 .title {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.layout-238 .section-title {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.layout-238 .handcrafted-by-skill {
+  align-self: stretch;
+  height: 105px;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.layout-238 .column-1 {
+  height: 375px;
+}
+
+.layout-238 .create-a-unique-foot {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+}
+
+.layout-238 .our-dedication-to-su {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+}
+
+.layout-238 .column-2 {
+  height: 370px;
+}
+
+.layout-238 .from-initial-design {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+}
+
+.layout-238 .column-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 32px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 36px;
+  padding: 30px;
+  position: relative;
+}

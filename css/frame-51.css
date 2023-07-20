@@ -1,0 +1,247 @@
+/* screen - frame-51 */
+
+.frame-51 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 1311.17px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.frame-51 .group-50 {
+  height: 552.31px;
+  min-width: 1311.17px;
+  position: relative;
+}
+
+.frame-51 .group-24 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 552px;
+  width: 1311px;
+}
+
+.frame-51 .group-22 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 468px;
+  width: 1311px;
+}
+
+.frame-51 .group-11 {
+  height: 37px;
+  margin-left: 0;
+  width: 238px;
+}
+
+.frame-51 .content {
+  align-items: flex-start;
+  display: flex;
+  gap: 128px;
+  height: 248px;
+  position: relative;
+  width: 1311px;
+}
+
+.frame-51 .logo {
+  height: 27px;
+  min-width: 63px;
+  position: relative;
+}
+
+.frame-51 .actions {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.frame-51 .placeholder {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-51 .button {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: -1.00px;
+  margin-right: -1.00px;
+  margin-top: -1.00px;
+  padding: 12px 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-51 .button-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-51 .links {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  position: relative;
+}
+
+.frame-51 .column {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.frame-51 .link {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  padding: 8px 0px;
+  position: relative;
+}
+
+.frame-51 .place {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-51 .column-1 {
+  align-items: center;
+  flex: 1;
+  padding: 46px 0px 0px;
+}
+
+.frame-51 .discover {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame-51 .link-1 {
+  height: 37px;
+  min-width: 214.39px;
+}
+
+.frame-51 .icon {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.frame-51 .content-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 128px;
+  height: 123px;
+  position: relative;
+  width: 1311px;
+}
+
+.frame-51 .logo-1 {
+  height: 27px;
+  min-width: 382px;
+  overflow: hidden;
+  position: relative;
+}
+
+.frame-51 .column-2 {
+  align-items: flex-start;
+  width: 156px;
+}
+
+.frame-51 .icon-linked-in {
+  height: 24px;
+  margin-bottom: -5246.69px;
+  margin-left: -951.00px;
+  min-width: 24px;
+  position: relative;
+}
+
+.frame-51 .links-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  gap: 40px;
+  padding: 0px 435px 0px 0px;
+  position: relative;
+}
+
+.frame-51 .place-2 {
+  align-self: stretch;
+  line-height: 24px;
+}
+
+.frame-51 .credits {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  width: 1311px;
+}
+
+.frame-51 .divider {
+  align-self: stretch;
+  background-color: var(--black);
+  height: 1px;
+  min-width: 1311.17px;
+  position: relative;
+}
+
+.frame-51 .row {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.frame-51 .footer-links {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-51 .column-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.frame-51 .place-3 {
+  letter-spacing: 0;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
