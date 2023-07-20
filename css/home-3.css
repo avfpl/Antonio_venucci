@@ -1695,3 +1695,37 @@
   justify-content: center;
 }
 
+
+@media screen and (min-width: 1440px) {
+  .home-3 .layout-241 {
+    gap: 150px;
+    padding: 66px 20px;
+  }
+
+  .home-3 .layout-242 {
+    gap: 150px;
+    padding: 66px 20px;
+  }
+
+  .home-3 .layout-243 {
+    gap: 150px;
+    padding: 66px 20px;
+  }
+  .home-3 .layout-244 {
+    gap: 15px;
+    padding: 66px 20px;
+  }
+
+  .home-3 .group-32 {
+    
+
+    left: 800px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
