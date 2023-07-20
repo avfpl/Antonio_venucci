@@ -1,0 +1,155 @@
+.home-3 .footer {
+  align-items: flex-start;
+  display: flex;
+  width: fit-content;
+}
+
+
+.home-3 .footer-2 {
+  background-color: var(--white);
+  flex-direction: column;
+  gap: 30px;
+  left: 0;
+  padding: 80px 64px;
+  position: absolute;
+  top: 933px;
+}
+
+.home-3 .group-24 {
+  height: 552.31px;
+  min-width: 1312px;
+  position: relative;
+}
+
+.home-3 .group-22 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  left: 0;
+  min-height: 468px;
+  position: absolute;
+  top: 0;
+  width: 1312px;
+}
+
+.home-3 .content-17 {
+  align-items: flex-start;
+  display: flex;
+  gap: 628px;
+  height: 248px;
+  position: relative;
+  width: 1312px;
+}
+
+.home-3 .actions-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.home-3 .button-3 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: -1.00px;
+  margin-right: -1.00px;
+  margin-top: -1.00px;
+  padding: 12px 24px;
+}
+
+.home-3 .discover-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.home-3 .place-2 {
+  flex: 1;
+  line-height: 21px;
+}
+
+.home-3 .link-1 {
+  height: 37px;
+  min-width: 214.67px;
+}
+
+.home-3 .icon-instagram {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.home-3 .icon-linked-in {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.home-3 .content-18 {
+  align-items: flex-start;
+  display: flex;
+  gap: 700px;
+  height: 123px;
+  position: relative;
+  width: 1312px;
+}
+
+.home-3 .column-8 {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  height: 98px;
+  width: 156px;
+}
+
+.home-3 .icon-linked-in-1 {
+  margin-bottom: -10712.69px;
+  margin-right: -34242.00px;
+}
+
+.home-3 .place-3 {
+  align-self: stretch;
+  line-height: 24px;
+}
+
+.home-3 .credits {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  left: 0;
+  position: absolute;
+  top: 498px;
+  width: 100%;
+}
+
+.home-3 .divider-1 {
+  align-self: stretch;
+  background-color: var(--black);
+  height: 1px;
+  min-width: 100%;
+  position: relative;
+}
+
+.home-3 .row-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.home-3 .footer-links {
+  gap: 24px;
+  position: relative;
+}

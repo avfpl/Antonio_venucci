@@ -2,18 +2,305 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
-    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+
     <meta name="viewport" content="width=1440, maximum-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+  
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
     <link rel="stylesheet" type="text/css" href="css/home-3.css" />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
     <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/men.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+    
+    <style>
+      .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #ccc; 
+      }
+      
+      .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+      }
+      </style>
+    <style>
+      
+      
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 80%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content */
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        align-items: center;
+      }
+      
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    .contact_modal{
+      display: flex;
+      width: 1224px;
+      /* padding: 112px 64px; */
+      /* flex-direction: column; */
+      justify-content: center;
+      align-items: center;
+      gap: 48px;
+    }
+ 
+      </style>
     <!-- <link rel="stylesheet" type="text/css" href="css/blog.css" /> -->
   </head>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="enquiry-form">
+      <div class="section-title">
+        <div class="inspiring-generations-uniting">
+          Inspiring Generations, Uniting Cultures.
+        </div>
+        <div class="content">
+          <b class="lets-collaborate">Let’s Collaborate</b>
+          <div class="lorem-ipsum-dolor">
+            This could be the start of a great journey
+          </div>
+        </div>
+      </div>
+      <form class="form">
+        <div class="inputs">
+          <div class="input">
+            <div class="full-name">Full Name</div>
+            <input class="text-input" type="text" maxlength minlength />
+          </div>
+          <div class="input">
+            <div class="full-name">Company Name</div>
+            <input class="text-input" type="text" maxlength minlength />
+          </div>
+        </div>
+        <div class="inputs">
+          <div class="input">
+            <div class="full-name">Date of Birth</div>
+            <input class="text-input" type="date" maxlength minlength />
+          </div>
+          <div class="input">
+            <div class="full-name">Gender</div>
+            <input class="text-input" type="text" maxlength minlength />
+          </div>
+        </div>
+        <div class="inputs">
+          <div class="input">
+            <div class="full-name">Office Address</div>
+            <input class="text-input" type="text" maxlength minlength />
+          </div>
+          <div class="input">
+            <div class="full-name">Company Email</div>
+            <div class="text-input5"></div>
+          </div>
+        </div>
+        <div class="inputs">
+          <div class="input">
+            <div class="full-name">Country</div>
+            <div class="select">
+              <li class="select-one">Select one...</li>
+              <img
+                class="icon-chevron-down"
+                alt=""
+                src="./public/icon--chevron-down.svg"
+              />
+            </div>
+          </div>
+          <div class="input">
+            <div class="full-name">Personal Email</div>
+            <input class="text-input" type="text" maxlength minlength />
+          </div>
+        </div>
+        <div class="inputs4">
+          <div class="input">
+            <div class="full-name">Position</div>
+            <div class="select1">
+              <li class="select-one">Select one...</li>
+              <img
+                class="icon-chevron-down"
+                alt=""
+                src="./public/icon--chevron-down.svg"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="radios">
+          <div class="select-categories">Select Categories</div>
+          <div class="content1">
+            <div class="content-inner">
+              <div class="column-parent">
+                <div class="column">
+                  <div class="radio">
+                    <img
+                      class="environment-health-icon"
+                      alt=""
+                      src="./public/environmenthealth.svg"
+                    />
+                  </div>
+                </div>
+                <div class="label">
+                  <p class="womens">Women’s</p>
+                  <p class="womens">Footwear</p>
+                </div>
+              </div>
+            </div>
+            <div class="content-inner">
+              <div class="column-parent">
+                <div class="column">
+                  <div class="radio">
+                    <img
+                      class="environment-health-icon"
+                      alt=""
+                      src="./public/environmenthealth1.svg"
+                    />
+                  </div>
+                </div>
+                <div class="label1">
+                  <p class="womens">Men’s</p>
+                  <p class="womens">Footwear</p>
+                </div>
+              </div>
+            </div>
+            <div class="content-inner">
+              <div class="column-parent">
+                <div class="column">
+                  <div class="radio">
+                    <img
+                      class="environment-health-icon"
+                      alt=""
+                      src="./public/environmenthealth2.svg"
+                    />
+                  </div>
+                </div>
+                <div class="label2">
+                  <p class="womens">Women’s</p>
+                  <p class="womens">Accessories</p>
+                </div>
+              </div>
+            </div>
+            <div class="content-inner">
+              <div class="column-parent">
+                <div class="column">
+                  <div class="radio">
+                    <img
+                      class="environment-health-icon"
+                      alt=""
+                      src="./public/environmenthealth3.svg"
+                    />
+                  </div>
+                </div>
+                <div class="label2">
+                  <p class="womens">Men’s</p>
+                  <p class="womens">Accessories</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input9">
+          <div class="upload-your-custom-designs-parent">
+            <div class="upload-your-custom">Upload your custom designs.</div>
+            <div class="text-area">
+              <div class="content2">
+                <img
+                  class="featured-icon"
+                  alt=""
+                  src="./public/featured-icon.svg"
+                />
+
+                <div class="text-and-supporting-text">
+                  <div class="action">
+                    <div class="button">
+                      <div class="text">
+                        <span class="click-to">Click to </span>
+                        <span class="upload">upload</span>
+                      </div>
+                    </div>
+                    <div class="text1">or drag and drop</div>
+                  </div>
+                  <div class="supporting-text">PDF (max. 20 MB)</div>
+                </div>
+              </div>
+              <img class="text-area-child" alt="" src="./public/line-1.svg" />
+
+              <img class="text-area-item" alt="" src="./public/line-2.svg" />
+            </div>
+          </div>
+          <div class="full-name">
+            Describe your brand’s needs. What are you interested in? Mention
+            product number for more information and samples.
+          </div>
+          <div class="text-area1">
+            <div class="type-your-message">Type your message...</div>
+            <img class="text-area-child" alt="" src="./public/line-1.svg" />
+
+            <img class="text-area-item" alt="" src="./public/line-2.svg" />
+          </div>
+        </div>
+        <div class="checkbox">
+          <div class="checkbox1"></div>
+          <div class="label4">
+            I accept the
+            <span class="terms">Terms</span>
+          </div>
+        </div>
+        <div class="button1">
+          <div class="button2">Submit</div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
   <body style="margin: 0; background: #ffffff">
     <input type="hidden" id="anPageName" name="page" value="home-3" />
     <div class="container-center-horizontal">
@@ -28,22 +315,14 @@
                 <a href="men.html"><div class="home">Men</div></a>
                 <a href="women.html"><div class="women">Women</div></a>
                 <!-- <div class="home">Women</div> -->
-                <a><div class="nav-link-dropdown">
+                <a href="about.html">
                   <div class="home">Company</div>
-                  <img
-                    class="chevron-down-icon"
-                    alt=""
-                    src="./public/chevron-down.svg"
-                  />
-                </div></a>
-                <a><div class="nav-link-dropdown">
+                 
+                </a>
+                <a href="blog.html">
                   <div class="home">News & Media</div>
-                  <img
-                    class="chevron-down-icon"
-                    alt=""
-                    src="./public/chevron-down.svg"
-                  />
-                </div></a>
+                
+                </a>
               </div>
               <div class="column1_nav">
                 <div class="button_nav">
@@ -61,7 +340,7 @@
           <div class="en">EN</div>
         </div>
         <div class="overlap-group3">
-          <img class="placeholder-image-3" src="img/placeholder---image.png" alt="Placeholder / Image" />
+          <img class="placeholder-image-3" src="img/hero_main.png" alt="Placeholder / Image" />
           <div class="group-42">
             <img class="group-35" src="img/group-35.png" alt="Group 35" />
             <p class="tailored-manufacturi">
@@ -437,15 +716,173 @@
                     </p>
                     <div class="button-10"><div class="button roboto-normal-cloud-burst-16px">Contact us</div></div>
                   </div>
-                  <div class="accordion roboto-normal-cloud-burst-16px">
-                    <div class="accordion-item-3">
+
+
+
+                  <div class="container_acc">
+  
+                    <div id="accordion-1" class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="head"  class="title-1 title-3">
+                        <h2>Do you offer custom manufacturing services?</h2>
+                        <img class="icon" src="img/icon.svg" alt="Icon" />
+                        <!-- <i class="fas fa-angle-down arrow"></i> -->
+                      </div>
+                      <div class="content_acc">
+                        <p> Yes, we offer custom manufacturing services for clients with specific design and material
+                          requirements.</p>
+                      </div>
+                    </div>
+                    <div class="divider-1"></div>
+                    <div id="accordion-1" class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="head"  class="title-1 title-3">
+                        <h2> Do you offer private label options?</h2>
+                        <img class="icon" src="img/icon.svg" alt="Icon" />
+                        <!-- <i class="fas fa-angle-down arrow"></i> -->
+                      </div>
+                      <div class="content_acc">
+                        <p> Yes, we offer private label options for clients who want to brand their own products.</p>
+                      </div>
+                    </div>
+
+                    <div class="divider-1"></div>
+                    <div id="accordion-1" class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="head"  class="title-1 title-3">
+                        <h2> What is your minimum order quantity?</h2>
+                        <img class="icon" src="img/icon.svg" alt="Icon" />
+                        <!-- <i class="fas fa-angle-down arrow"></i> -->
+                      </div>
+                      <div class="content_acc">
+                        <p>  Our minimum order quantity varies depending on the product and the manufacturing process.<br> Please contact us for more information.</p>
+                      </div>
+                    </div>
+
+                    <div class="divider-1"></div>
+                    <div id="accordion-1" class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="head"  class="title-1 title-3">
+                        <h2>What materials do you use in your products?</h2>
+                        <img class="icon" src="img/icon.svg" alt="Icon" />
+                        <!-- <i class="fas fa-angle-down arrow"></i> -->
+                      </div>
+                      <div class="content_acc">
+                        <p> Our products are made with a variety of materials including leather, suede, and various fabrics.</p>
+                      </div>
+                    </div>
+
+                    <div class="divider-1"></div>
+                    <div id="accordion-1" class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="head"  class="title-1 title-3">
+                        <h2> What is your lead time for production?</h2>
+                        <img class="icon" src="img/icon.svg" alt="Icon" />
+                        <!-- <i class="fas fa-angle-down arrow"></i> -->
+                      </div>
+                      <div class="content_acc">
+                        <p> Lead times for production vary depending on the complexity of the order.<br> We will provide an estimated lead time once an order has been placed.</p>
+                      </div>
+                    </div>
+
+                    <div class="divider-1"></div>
+                    <div id="accordion-1" class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="head"  class="title-1 title-3">
+                        <h2> How do you ensure quality control in your products?</h2>
+                        <img class="icon" src="img/icon.svg" alt="Icon" />
+                        <!-- <i class="fas fa-angle-down arrow"></i> -->
+                      </div>
+                      <div class="content_acc">
+                        <p> We have a strict quality control process in place. We inspect our products at every stage of the <br>manufacturing process and conduct final inspections before shipping.</p>
+                      </div>
+                    </div>
+
+
+
+                    <div class="divider-1"></div>
+                    <div id="accordion-1" class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="head"  class="title-1 title-3">
+                        <h2>Can you provide samples of your products?</h2>
+                        <img class="icon" src="img/icon.svg" alt="Icon" />
+                        <!-- <i class="fas fa-angle-down arrow"></i> -->
+                      </div>
+                      <div class="content_acc">
+                        <p> Yes, we can provide samples of our products. Please get in touch with us.</p>
+                      </div>
+                    </div>
+
+
+                    <div class="divider-1"></div>
+                    <div id="accordion-1" class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="head"  class="title-1 title-3">
+                        <h2>  What are the shipping options available?</h2>
+                        <img class="icon" src="img/icon.svg" alt="Icon" />
+                        <!-- <i class="fas fa-angle-down arrow"></i> -->
+                      </div>
+                      <div class="content_acc">
+                        <p> We offer various shipping options, including air freight, sea freight, and land transportation.<br> The specific option will depend on your destination, budget, and urgency of delivery.</p>
+                      </div>
+                    </div>
+
+
+
+                    <div class="divider-1"></div>
+                    <div id="accordion-1" class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="head"  class="title-1 title-3">
+                        <h2> How are shipping costs determined?</h2>
+                        <img class="icon" src="img/icon.svg" alt="Icon" />
+                        <!-- <i class="fas fa-angle-down arrow"></i> -->
+                      </div>
+                      <div class="content_acc">
+                        <p> Shipping costs are determined based on various factors, such as the weight, dimensions, destination,<br> shipping method, and any additional services required (e.g., insurance, customs clearance).<br> We can provide you with a detailed cost breakdown for your specific shipment.</p>
+                      </div>
+                    </div>
+
+
+                    <div class="divider-1"></div>
+                    <div id="accordion-1" class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="head"  class="title-1 title-3">
+                        <h2> Can I request expedited shipping?</h2>
+                        <img class="icon" src="img/icon.svg" alt="Icon" />
+                        <!-- <i class="fas fa-angle-down arrow"></i> -->
+                      </div>
+                      <div class="content_acc">
+                        <p> Yes, we offer expedited shipping services for urgent shipments. Please let us know your requirements, <br>and we will provide you with the best available options and associated costs.</p>
+                      </div>
+                    </div>
+
+
+                    <div class="divider-1"></div>
+                    <div id="accordion-1" class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="head"  class="title-1 title-3">
+                        <h2>How can I get in touch with your customer service team?</h2>
+                        <img class="icon" src="img/icon.svg" alt="Icon" />
+                        <!-- <i class="fas fa-angle-down arrow"></i> -->
+                      </div>
+                      <div class="content_acc">
+                        <p> You can contact our customer service team through live chat, email, phone or through our <br>website contact form. We are happy to answer any questions you may have.</p>
+                      </div>
+                    </div>
+
+
+
+
+                    
+                    <br>
+                    
+                  
+                    
+                  </div>
+
+                  
+
+                  <!-- <div class="accordion roboto-normal-cloud-burst-16px">
+                    <div  class="accordion" >
                       <div class="divider-1"></div>
-                      <div class="title-1 title-3">
-                        <p class="do-you-offer-custom roboto-bold-cloud-burst-18px">
+                      <div class="title-1 title-3" >
+                        <p class="do-you-offer-custom roboto-bold-cloud-burst-18px" >
                           Do you offer custom manufacturing services?
                         </p>
                         <img class="icon" src="img/icon.svg" alt="Icon" />
                       </div>
+                    </div>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                     <p class="yes-we-offer-custom">
                       Yes, we offer custom manufacturing services for clients with specific design and material
@@ -595,7 +1032,7 @@
                     <div class="accordion-item-3">
                       <div class="divider-1"></div>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -614,119 +1051,130 @@
                   </p>
                 </div>
                 <div class="frame-75">
-                  <div class="button-11"><div class="button roboto-normal-cloud-burst-16px">Get In Touch</div></div>
+                  <div class="button-11" id="myBtn"><div class="button roboto-normal-cloud-burst-16px">Get In Touch</div></div>
                 </div>
               </div>
             </div>
             <img class="mask-group-1" src="img/Mask group1.png" alt="Mask group" />
           </div>
         </div>
-        <div class="group-24">
-          <div class="group-22">
-            <img class="group-3" src="img/group-3@2x.png" alt="Group 3" />
-            <div class="content-21">
-              <div class="newsletter">
-                <img class="logo" src="img/logo@2x.png" alt="logo" />
-                <p class="join-our-newsletter roboto-normal-black-16px">
-                  Join our newsletter to stay up to date on features and releases.
-                </p>
-                <div class="actions-2 actions-3">
-                  <div class="form">
-                    <div class="text-input">
-                      <div class="placeholder roboto-normal-abbey-16px">Enter your email</div>
+        <div class="footer-2 footer">
+          <div class="group-24">
+            <div class="group-22">
+              <img class="group-3" src="img/group-3@2x.png" alt="Group 3" />
+              <div class="content-17">
+                <div class="newsletter">
+                  <img class="logo" src="img/logo@2x.png" alt="logo" />
+                  <p class="join-our-newsletter roboto-normal-black-16px">
+                    Join our newsletter to stay up to date on features and releases.
+                  </p>
+                  <div class="actions-1">
+                    <div class="form">
+                      <div class="text-input">
+                        <div class="placeholder roboto-normal-abbey-16px">Enter your email</div>
+                      </div>
+                      <div class="button-3 button-6">
+                        <div class="button roboto-normal-black-16px">Subscribe</div>
+                      </div>
                     </div>
-                    <div class="button-12"><div class="button roboto-normal-black-16px">Subscribe</div></div>
+                    <p class="by-subscribing-you-a roboto-normal-black-12px">
+                      <span class="roboto-normal-black-12px">By subscribing you agree to with our </span
+                      ><span class="span1 roboto-normal-black-12px">Privacy Policy</span
+                      ><span class="roboto-normal-black-12px">
+                        and provide consent to receive updates from our company.</span
+                      >
+                    </p>
                   </div>
-                  <p class="by-subscribing-you-a roboto-normal-black-12px">
-                    <span class="roboto-normal-black-12px">By subscribing you agree to with our </span
-                    ><span class="span1 roboto-normal-black-12px">Privacy Policy</span
-                    ><span class="roboto-normal-black-12px">
-                      and provide consent to receive updates from our company.</span
-                    >
+                </div>
+                <div class="links">
+                  <div class="column-2 column-10">
+                    <div class="quick-links roboto-semi-bold-black-16px">Quick-Links</div>
+                    <div class="x-links">
+                      <div class="link"><div class="place-1 place-4 roboto-normal-black-14px">Home</div></div>
+                      <div class="link"><div class="mens roboto-normal-black-14px">Men’s Footwear</div></div>
+                      <div class="link">
+                        <div class="womens-footwear roboto-normal-black-14px">Women’s Footwear</div>
+                      </div>
+                      <div class="link"><div class="mens roboto-normal-black-14px">Men’s Accessories</div></div>
+                      <div class="link">
+                        <div class="womeens-accessories roboto-normal-black-14px">Womeen’s Accessories</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column-2 column-10">
+                    <div class="x-links">
+                      <div class="link"><div class="discover-1 roboto-normal-black-14px">Discover</div></div>
+                      <div class="link"><div class="place-2 place-4 roboto-normal-black-14px">Contact</div></div>
+                      <div class="link">
+                        <div class="invitation-form roboto-normal-black-14px">Invitation Form</div>
+                      </div>
+                      <div class="link-1 link-3"></div>
+                      <div class="link-1 link-3"></div>
+                    </div>
+                  </div>
+                  <div class="column-2 column-10">
+                    <div class="follow-us roboto-semi-bold-black-16px">Follow Us</div>
+                    <div class="x-links">
+                      <div class="link-2 link-3">
+                        <img class="icon-instagram" src="img/icon---instagram.svg" alt="Icon / Instagram" />
+                        <div class="instagram roboto-normal-black-14px">Instagram</div>
+                      </div>
+                      <div class="link-2 link-3">
+                        <img class="icon-linked-in" src="img/icon---linkedin.svg" alt="Icon / LinkedIn" />
+                        <div class="linked-in roboto-normal-black-14px">LinkedIn</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-18">
+                <div class="newsletter">
+                  <div class="logo-1">
+                    <div class="column-8 column-10">
+                      <div class="business-details roboto-semi-bold-black-16px">Business Details</div>
+                      <div class="x-links">
+                        <div class="link">
+                          <img
+                            class="icon-linked-in-1 icon-linked-in-3"
+                            src="img/layer-1@2x.png"
+                            alt="Icon / LinkedIn"
+                          />
+                          <p class="office-91-129-460 roboto-normal-black-14px">
+                            Office: +91 129 460 9376<br />Email: relations@antoniovenucci.com
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="gstin-06-aawca7877-n1 roboto-normal-black-16px">
+                    GSTIN: 06AAWCA7877N1ZI<br />17C/1, Near Rajiv Gandhi Colony, NIT, Faridabad,<br />Haryana, India
+                    - 121001
                   </p>
                 </div>
-              </div>
-              <div class="links">
-                <div class="column-1 column-9">
-                  <div class="quick-links roboto-semi-bold-black-16px">Quick-Links</div>
-                  <div class="footer-links">
-                    <div class="link"><div class="place roboto-normal-black-14px">Home</div></div>
-                    <div class="link"><div class="mens roboto-normal-black-14px">Men’s Footwear</div></div>
-                    <div class="link"><div class="womens-footwear roboto-normal-black-14px">Women’s Footwear</div></div>
-                    <div class="link"><div class="mens roboto-normal-black-14px">Men’s Accessories</div></div>
-                    <div class="link">
-                      <div class="womeens-accessories roboto-normal-black-14px">Womeen’s Accessories</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="column-7 column-9">
-                  <div class="footer-links-1">
-                    <div class="link"><div class="discover-1 roboto-normal-black-14px">Discover</div></div>
-                    <div class="link"><div class="place-1 place-3 roboto-normal-black-14px">Contact</div></div>
-                    <div class="link"><div class="invitation-form roboto-normal-black-14px">Invitation Form</div></div>
-                    <div class="link-1 link-3"></div>
-                    <div class="link-1 link-3"></div>
-                  </div>
-                </div>
-                <div class="column-1 column-9">
-                  <div class="follow-us roboto-semi-bold-black-16px">Follow Us</div>
-                  <div class="social-links">
-                    <div class="link-2 link-3">
-                      <img class="icon-instagram" src="img/icon---instagram.svg" alt="Icon / Instagram" />
-                      <div class="instagram roboto-normal-black-14px">Instagram</div>
-                    </div>
-                    <div class="link-2 link-3">
-                      <img class="icon-linked-in" src="img/icon---linkedin.svg" alt="Icon / LinkedIn" />
-                      <div class="linked-in roboto-normal-black-14px">LinkedIn</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="content-22">
-              <div class="newsletter-1">
-                <div class="logo-1">
-                  <div class="column-8 column-9">
-                    <div class="business-details roboto-semi-bold-black-16px">Business Details</div>
-                    <div class="social-links-3">
+                <div class="links-1">
+                  <div class="column-2 column-10">
+                    <div class="place-3 place-4 roboto-semi-bold-black-16px">Contact</div>
+                    <div class="x-links">
                       <div class="link">
-                        <img class="icon-linked-in-1 icon-linked-in-3" src="img/layer-1@2x.png" alt="Icon / LinkedIn" />
-                        <p class="office-91-129-460 roboto-normal-black-14px">
+                        <img class="icon-linked-in-3" src="img/icon---linkedin-2@2x.png" alt="Icon / LinkedIn" />
+                        <p class="office-91-129-460-1 roboto-normal-black-14px">
                           Office: +91 129 460 9376<br />Email: relations@antoniovenucci.com
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <p class="gstin-06-aawca7877-n1 roboto-normal-black-16px">
-                  GSTIN: 06AAWCA7877N1ZI<br />17C/1, Near Rajiv Gandhi Colony, NIT, Faridabad,<br />Haryana, India -
-                  121001
-                </p>
-              </div>
-              <div class="links-1">
-                <div class="column-1 column-9">
-                  <div class="place-2 place-3 roboto-semi-bold-black-16px">Contact</div>
-                  <div class="social-links-3">
-                    <div class="link">
-                      <img class="icon-linked-in-3" src="img/icon---linkedin-2@2x.png" alt="Icon / LinkedIn" />
-                      <p class="office-91-129-460-1 roboto-normal-black-14px">
-                        Office: +91 129 460 9376<br />Email: relations@antoniovenucci.com
-                      </p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
-          </div>
-          <div class="credits">
-            <div class="divider-3"></div>
-            <div class="row-1 roboto-normal-black-14px">
-              <p class="x2022-antonio-venuc">© 2022 Antonio Venucci Footwear Pvt Ltd. All right reserved.</p>
-              <div class="footer-links-2">
-                <div class="footer-links-item">Sitemap</div>
-                <div class="footer-links-item">Privacy Policy</div>
-                <div class="footer-links-item">Terms of Service</div>
-                <div class="footer-links-item">Cookies Settings</div>
+            <div class="credits">
+              <div class="divider-1"></div>
+              <div class="row-3 roboto-normal-black-14px">
+                <p class="x2022-antonio-venuc">© 2022 Antonio Venucci Footwear Pvt Ltd. All right reserved.</p>
+                <div class="footer-links footer">
+                  <div class="footer-links-item">Privacy Policy</div>
+                  <div class="footer-links-item">Terms of Service</div>
+                  <div class="footer-links-item">Cookies Settings</div>
+                </div>
               </div>
             </div>
           </div>
@@ -734,4 +1182,39 @@
       </div>
     </div>
   </body>
+  <script>
+    $('.head').click(function(){
+  $(this).toggleClass('active');
+  $(this).parent().find('.arrow').toggleClass('arrow-animate');
+  $(this).parent().find('.content_acc').slideToggle(280);
+});
+
+    </script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
 </html>
