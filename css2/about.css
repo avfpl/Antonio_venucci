@@ -1,4 +1,8 @@
 /* screen - home-3 */
+@font-face {
+  font-family: 'Alta';
+  src: url('https://www.fontsaddict.com/fontface/alta.ttf');
+}
 
 .home-3 {
   align-items: center;
@@ -1457,4 +1461,41 @@ text-decoration:none;
   left: 98%;
   line-height: 150%;
   color: var(--black);
+}
+
+.group-42 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* left: 337px; */
+  min-height: 234px;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+
+.group-35 {
+  height: 41px;
+  margin-right: 2.0px;
+  width: 745px;
+
+}
+
+.hero_font{
+  color: var(--refresh, #DAE3EA);
+text-align: center;
+font-family: Alta;
+font-size: 64px;
+font-style: normal;
+font-weight: 50;
+line-height: 120%; /* 76.8px */
+}
+
+.hero_font1{
+  color: var(--calm, #A9C0D3);
+  font-family: Alta;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 50;
+  line-height: 120%;
 }

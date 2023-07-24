@@ -1819,6 +1819,27 @@
 
     left: 800px;
   }
+
+  .home-3 .group-49 {
+    height: 411.04px;
+    margin-bottom: -62.52px;
+    /* margin-left: 50.78px; */
+    /* margin-top: -62.52px; */
+    min-width: 410.52px;
+  }
+
+  .home-3 .mask-group-1 {
+    height: 414.26px;
+    margin-bottom: -64.13px;
+    /* margin-top: -64.13px; */
+    min-width: 159px;
+    position: relative;
+}
+
+.home-3 .cta-34 {
+
+  gap: 250px;
+}
 }
 
 
