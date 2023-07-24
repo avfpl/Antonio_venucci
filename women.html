@@ -44,22 +44,22 @@
               <div class="image-1"></div>
               <div class="column_nav">
               
-                <a href="home-3.html"><div class="home">Home</div></a>
-                <a href="men.html"><div class="home">Men</div></a>
-                <a href="women.html"><div class="women">Women</div></a>
+                <a class="nav_item" href="index.html"><div class="home">Home</div></a>
+                <a class="nav_item" href="men.html"><div class="home">Men</div></a>
+                <a class="nav_item" href="women.html"><div class="women">Women</div></a>
                 <!-- <div class="home">Women</div> -->
-                <a href="about.html">
+                <a class="nav_item" href="about.html">
                   <div class="home">Company</div>
                   
                 </a>
-                <a href="blog.html">
+                <a class="nav_item" href="blog.html">
                   <div class="home">News & Media</div>
                   
                 </a>
               </div>
               <div class="column1_nav">
                 <div class="button_nav">
-                  <div class="home">Contact</div>
+                  <a class="nav_item" href="contact.html"><div class="home">Contact</div></a>
                 </div>
                 <div class="button2_nav">
                   <div class="women">Sign up</div>
@@ -88,7 +88,7 @@
               <!-- <div class="placeholder-image placeholder-1"></div> -->
               <div class="frame-31">
                 <img class="placeholder-image-3" id="myBtn" src="img/women1.png" alt="Placeholder / Image" />
-                <img
+                <img id="myBtn1"
                   class="placeholder-image-2 placeholder-image-3"
                   src="img/women2.png"
                   alt="Placeholder / Image"
@@ -345,15 +345,28 @@
       </div>
     </div>
     <!-- The Modal -->
+    
 <div id="myModal" class="modal">
 
   <!-- Modal content -->
   <div class="modal-content">
-    <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/1ddb63e622.html#page/12" style="border: 1px solid lightgray; width: 100%; height: 400px;"></iframe>
+    <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/982c862b5c.html" style="border: 1px solid lightgray; width: 100%; height: 800px;"></iframe>
     <span class="close">&times;</span>
   </div>
 
 </div>
+
+
+    <!-- The Modal -->
+    <div id="myModal1" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/00b3158bcc.html" style="border: 1px solid lightgray; width: 100%; height: 800px;"></iframe>
+        <span class="close1">&times;</span>
+      </div>
+    
+    </div>
   </body>
   <script>
     // Get the modal
@@ -378,6 +391,34 @@
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
       if (event.target == modal) {
+        modal.style.display = "none";
+        // modal1.style.display = "none";
+      }
+    }
+
+           // Get the modal
+           var modal1 = document.getElementById("myModal1");
+    
+    // Get the button that opens the modal
+    var btn1 = document.getElementById("myBtn1");
+    
+    // Get the <span> element that closes the modal0
+    var span1 = document.getElementsByClassName("close1")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn1.onclick = function() {
+      modal1.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span1.onclick = function() {
+      modal1.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal1) {
+        modal1.style.display = "none";
         modal.style.display = "none";
       }
     }

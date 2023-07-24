@@ -727,7 +727,7 @@
 .en {
   position: absolute;
   top: 23.5px;
-  left: 1398px;
+  left: 98%;
   line-height: 150%;
   color: var(--black);
 }

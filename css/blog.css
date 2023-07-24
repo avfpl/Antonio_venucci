@@ -102,11 +102,11 @@
   max-height: 100%;
 }
 .en {
-  position: absolute;
   top: 23.5px;
-  left: 1398px;
-  line-height: 150%;
-  color: var(--black);
+    left: 98%;
+    line-height: 150%;
+    color: var(--black);
+
 }
 .blog,
 .navbar {
@@ -813,4 +813,17 @@
   font-size: var(--text-regular-semi-bold-size);
   color: var(--black);
   font-family: var(--text-small-link);
+}
+
+
+.nav_item {
+  color: #232F45;
+/* Text/Regular/Normal */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+text-decoration:none;
+
 }

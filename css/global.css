@@ -19,6 +19,17 @@ body {
   --heading-h1-size: 56px;
   --font-size-2xl: 21px;
 
+  --text-regular-normal-size: 16px;
+ 
+  --text-tiny-normal-size: 12px;
+
+
+
+
+  --heading-h6-size: 20px;
+  
+
+
   /* Colors */
   --white: #fff;
   --black: #000;
