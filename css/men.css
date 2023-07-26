@@ -496,3 +496,11 @@ line-height: 150%; /* 24px */
 text-decoration:none;
 
 }
+.textforcat{
+color: var(--nature, #343F31);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+}
