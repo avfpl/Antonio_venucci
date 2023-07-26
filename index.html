@@ -591,6 +591,7 @@
     <input type="hidden" id="anPageName" name="page" value="home-3" />
     <div class="container-center-horizontal">
       <div class="home-3 screen">
+        <button onclick="topFunction()" id="myBtn_top" title="Go to top"><img class="b2t" src="img/backtotop.png"></button>
         <div class="navbar">
           <div class="navbar-5">
             <div class="content_nav">
@@ -1767,52 +1768,38 @@
     }
     </script>
     <script>
-//       var div = document.createElement('div');
-//         return ('draggable' in div) || ('ondragstart' in div && 'ondrop' in div)
-//         return 'FormData' in window;
-//         'FileReader' in window
-//         var isAdvancedUpload = function() {
-//         var div = document.createElement('div');
-//         return (('draggable' in div) || ('ondragstart' in div && 'ondrop' in div)) && 'FormData' in window && 'FileReader' in window;
-//       }();
-//       if (isAdvancedUpload) {
-//   // ...
-//       }
-//       var $form = $('.box');
+      // // Get the button:
+      // let mybutton = document.getElementById("myBtn_top");
 
-//       if (isAdvancedUpload) {
-//         $form.addClass('has-advanced-upload');
-//       }
+      // // When the user scrolls down 20px from the top of the document, show the button
+      // window.onscroll = function() {scrollFunction()};
 
-//       if (isAdvancedUpload) {
+      // function scrollFunction() {
+      //   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      //     mybutton.style.display = "block";
+      //   } else {
+      //     mybutton.style.display = "none";
+      //   }
+      // }
 
-//       var droppedFiles = false;
-
-//       $form.on('drag dragstart dragend dragover dragenter dragleave drop', function(e) {
-//         e.preventDefault();
-//         e.stopPropagation();
-//       })
-//       .on('dragover dragenter', function() {
-//         $form.addClass('is-dragover');
-//       })
-//       .on('dragleave dragend drop', function() {
-//         $form.removeClass('is-dragover');
-//       })
-//       .on('drop', function(e) {
-//         droppedFiles = e.originalEvent.dataTransfer.files;
-//       });
-
-//       }
-//       $form.on('submit', function(e) {
-//   if ($form.hasClass('is-uploading')) return false;
-
-//   $form.addClass('is-uploading').removeClass('is-error');
-
-//   if (isAdvancedUpload) {
-//     // ajax for modern browsers
-//   } else {
-//     // ajax for legacy browsers
-//   }
-// });
+      // // When the user clicks on the button, scroll to the top of the document
+      // function topFunction() {
+      //   document.body.scrollTop = 0; // For Safari
+      //   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      // }
+      
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#myBtn_top').fadeIn(); 
+        } else { 
+            $('#myBtn_top').fadeOut(); 
+        } 
+    }); 
+    $('#myBtn_top').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
     </script>
 </html>
