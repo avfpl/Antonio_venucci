@@ -3107,7 +3107,7 @@ position: absolute;
 .mobile-container {
   display: none;
 } */
-#hamburger{
+/* #hamburger{
   display: none;
 }
 
@@ -3121,7 +3121,7 @@ position: absolute;
 
 
 .mobile-container {
-  /* display: block; */
+ 
   max-width: 480px;
   margin: auto;
   background-color: #555;
@@ -3132,7 +3132,7 @@ position: absolute;
 
 .topnav {
   overflow: hidden;
-  /* background-color: #333; */
+
   position: relative;
 }
 
@@ -3166,4 +3166,4 @@ position: absolute;
   color: white;
 }
 
-}
+} */
