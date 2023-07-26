@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
 
-    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial=1.0" />
   
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
@@ -94,6 +94,7 @@
       </style>
     <!-- <link rel="stylesheet" type="text/css" href="css/blog.css" /> -->
   </head>
+
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
@@ -588,6 +589,36 @@
 
 </div>
   <body style="margin: 0; background: #ffffff">
+      <!-- Simulate a smartphone / tablet -->
+      <a id="hamburger" href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i  class="fa fa-bars"></i>
+      </a>
+<div class="mobile-container">
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="#home"><img class="navbar-child" alt="" src="./img/group-75.svg" /></a>
+    <div id="myLinks">
+      <a class="nav_item" href="index.html"><div class="home">Home</div></a>
+      <a class="nav_item" href="men.html"><div class="home">Men</div></a>
+      <a class="nav_item" href="women.html"><div class="women">Women</div></a>
+      <!-- <div class="home">Women</div> -->
+      <a class="nav_item" href="about.html">
+        <div class="home">Company</div>
+       
+      </a>
+    </div>
+    
+  </div>
+  
+  <!-- <div style="padding-left:16px">
+    <h3>Vertical Mobile Navbar</h3>
+    <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+    <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+  </div> -->
+  
+  <!-- End smartphone / tablet look -->
+  </div>
     <input type="hidden" id="anPageName" name="page" value="home-3" />
     <div class="container-center-horizontal">
       <div class="home-3 screen">
@@ -622,12 +653,50 @@
             
             </div>
           </div>
-          <img class="navbar-child" alt="" src="./img/group-75.svg" />
+          
   
           <div class="en">EN</div>
         </div>
         <div class="overlap-group3">
-          <img class="placeholder-image-3" src="img/hero_main.png" alt="Placeholder / Image" />
+            <!-- slider -->
+            <div class="slideshow-container ">
+
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img class="placeholder-image-3" src="img/hero_main.png">
+               
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img class="placeholder-image-3" src="img/slider2.png">
+                
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img class="placeholder-image-3"  src="img/slider3.png">
+                
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img class="placeholder-image-3"  src="img/hero_main.png">
+                
+              </div>
+              <div class="slider1">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+             
+              </div>
+            <!-- slider end -->
+          <!-- <img class="placeholder-image-3" src="img/hero_main.png" alt="Placeholder / Image" /> -->
           <div class="group-42">
             <img class="group-35" src="img/group-35.png" alt="Group 35" />
             <p class="tailored-manufacturi">
@@ -658,6 +727,7 @@
           <div class="cta-36 cta"></div>
           <div class="cta-35 cta"></div>
           <div class="layout-241 layout">
+          
             <img class="placeholder-image" src="img/div_index1.png" alt="Placeholder / Image" />
             <div class="content-3">
               <div class="section-title">
@@ -1721,6 +1791,7 @@
   </div>
 </div>
 
+  
 
 <!-- foterr -->
 
@@ -1732,6 +1803,23 @@
 
     </div>
   </body>
+  <script>
+    $('#hamburger').click(function() {
+    $('.mobile-container').css({
+        'display': 'block'
+        
+    });
+});
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
   <script>
     $('.head').click(function(){
   $(this).toggleClass('active');
@@ -1802,4 +1890,32 @@ $(document).ready(function(){
     }); 
 });
     </script>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
 </html>

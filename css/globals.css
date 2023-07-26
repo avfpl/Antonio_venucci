@@ -762,3 +762,11 @@
   padding: var(--padding-5xs) var(--padding-xl);
   justify-content: center;
 }
+
+
+@media only screen and (max-width:600px) {
+  .navbar{
+    display: none;
+  }
+ 
+}  

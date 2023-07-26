@@ -91,18 +91,18 @@
                       Reach out to us for inquiries, feedback, or assistance.
                     </div>
                   </div>
-                  <form class="form2">
+                  <form class="form2" id="contact-form" action="mail.php" method="post">
                     <div class="input3">
                       <div class="name1">Name</div>
-                      <input class="text-input4" type="text" />
+                      <input class="text-input4" type="text" name="name"/>
                     </div>
                     <div class="input3">
                       <div class="name1">Email</div>
-                      <input class="text-input4" type="text" />
+                      <input class="text-input4" type="text"  name="email"/>
                     </div>
                     <div class="input3">
                       <div class="name1">Message</div>
-                      <textarea class="text-area2"> </textarea>
+                      <textarea class="text-area2"  name="message"> </textarea>
                     </div>
                     <div class="checkbox3">
                       <input class="checkbox4" type="checkbox" required />
@@ -113,7 +113,7 @@
                       </div>
                     </div>
                     <div class="button20">
-                      <button class="button21">Submit</button>
+                      <button type="submit" class="button21">Submit</button>
                     </div>
                   </form>
                 </div>
