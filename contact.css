@@ -816,3 +816,14 @@ line-height: 150%; /* 24px */
 text-decoration:none;
 
 }
+
+
+p.form-messege{
+  margin-top:15px;font-size:14px
+}
+p.success {
+  color: green;
+}
+p.error {
+  color: red;
+}
