@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
 
-    <meta name="viewport" content="width=device-width, initial=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
@@ -113,35 +113,35 @@
           </div>
         </div>
       </div>
-      <form class="form">
+      <form class="form" id="contact-form" action="enquire.php" method="post" enctype="multipart/form-data">
         <div class="inputs">
           <div class="input">
             <div class="full-name">Full Name</div>
-            <input class="text-input" type="text" maxlength minlength />
+            <input class="text-input" type="text" name="sender_name" maxlength minlength />
           </div>
           <div class="input">
             <div class="full-name">Company Name</div>
-            <input class="text-input" type="text" maxlength minlength />
+            <input class="text-input" type="text" name="company_name" maxlength minlength />
           </div>
         </div>
         <div class="inputs">
           <div class="input">
             <div class="full-name">Date of Birth</div>
-            <input class="text-input" type="date" maxlength minlength />
+            <input class="text-input" type="date" name="DOB" maxlength minlength />
           </div>
           <div class="input">
             <div class="full-name">Gender</div>
-            <input class="text-input" type="text" maxlength minlength />
+            <input class="text-input" type="text" name="Gender" maxlength minlength />
           </div>
         </div>
         <div class="inputs">
           <div class="input">
             <div class="full-name">Office Address</div>
-            <input class="text-input" type="text" maxlength minlength />
+            <input class="text-input" type="text" name="subject" maxlength minlength />
           </div>
           <div class="input">
             <div class="full-name">Company Email</div>
-            <input class="text-input" type="text" maxlength minlength />
+            <input class="text-input" type="text" name="email" maxlength minlength />
           </div>
         </div>
         <div class="inputs">
@@ -416,7 +416,7 @@
           </div>
           <div class="input">
             <div class="full-name">Personal Email</div>
-            <input class="text-input" type="text" maxlength minlength />
+            <input class="text-input" type="text" name="personal_email" maxlength minlength />
           </div>
         </div>
         <div class="inputs4">
@@ -537,7 +537,7 @@
                 </div> -->
 
                 <div class="text-and-supporting-text box__input">
-                    <input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+                    <input class="box__file" type="file" name="attachment" id="file" data-multiple-caption="{count} files selected" multiple />
                     <label for="file"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
                     <!-- <button class="box__button" type="submit">Upload</button> -->
                   </div>
@@ -581,7 +581,7 @@
           </div>
         </div> -->
         <div class="button1">
-          <div class="button2">Submit</div>
+          <input class="button2" type="submit" name="button" value="Submit"/>
         </div>
       </form>
     </div>
