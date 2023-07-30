@@ -2857,7 +2857,7 @@ position: absolute;
 .home-3 .group-35 {
   height: 41px;
   margin-right: 2px;
-  width: 445px;
+  width: 80%;
 }
 
 .home-3 .tailored-manufacturi {
@@ -2873,6 +2873,20 @@ position: absolute;
   min-width: 342px;
   text-align: center;
 }
+
+.home-3 .row-1 {
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.home-3 .group-24 {
+  
+  min-width: 392px;
+ 
+}
+
+
 }
 
 
@@ -2931,7 +2945,7 @@ position: absolute;
 
   .home-3 {
  
-    min-height: 15270px;
+    min-height: 13870px;
   
 }
 
@@ -2989,8 +3003,8 @@ position: absolute;
 
 
   .home-3 .placeholder-image-5 {
-
-    gap:380px;
+    
+    gap:67%;
     height: 350px;
   
 }
@@ -3077,7 +3091,28 @@ position: absolute;
   width: 100%;
 }
 .home-3 .blog-34 {
+  padding: 75px 4.1px;
+  width: 100%;
+  margin-top: 20px;
+}
+.home-3 .title {
 
+  width: 340px;
+}
+#accordion-1 .head {
+  font-size: 15px;
+
+}
+
+.container_acc{
+  margin-left: -70px;
+  width: 95%;
+}
+
+
+
+
+.home-3 .content-13 {
   width: 100%;
 }
 
@@ -3114,11 +3149,66 @@ position: absolute;
 }
 
 .home-3 .placeholder-image-4 {
-  height: 450px;
+  height: 350px;
 
-  min-width: 400px;
+  min-width: 300px;
   position: relative;
 }
+
+.home-3 .end-to-end-solutions-1 {
+  align-self: stretch;
+  color: #343f31;
+  font-family: var(--font-family-alta-caption);
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 52.6px;
+  position: relative;
+}
+
+
+.we-align-with-your-b {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 57.6px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  color: var(--cloud-burst);
+  font-family: var(--font-family-roboto);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.home-3 .group-10 {
+  height: 344px;
+  margin-bottom: -29px;
+  margin-top: -29px;
+  min-width: 100%;
+  position: relative;
+  margin-left: -20px;
+}
+.home-3 .content-19 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+  
+
+  
+}
+
+.home-3 .content-20 {
+
+  margin: 20px;
+
+}
+
+
+
 
   .home-3 .content-3,
   .content-7 {
@@ -3147,7 +3237,7 @@ position: absolute;
   
 }
 .home-3 .overlap-group5 {
-  height: 1904px;
+  height: 2004px;
   position: relative;
   width: 100%;
 }
@@ -3155,7 +3245,7 @@ position: absolute;
 
 .home-3 .gallery-13 {
 
-  top: 1518px;
+  top: 1718px;
  
 }
 .home-3 .harmonizing-traditio {
@@ -3214,7 +3304,7 @@ position: absolute;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-top: 609px;
+  margin-top: 809px;
   min-height: 552px;
   width: 100%;
 }
