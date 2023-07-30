@@ -11,12 +11,13 @@
     <link rel="stylesheet" type="text/css" href="css2/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css2/globals.css" />
     <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
   </head>
   <body style="margin: 0; background: #ffffff">
     <!-- <input type="hidden" id="anPageName" name="page" value="home-3" /> -->
     <div class="container-center-horizontal">
       <div class="home-3 screen">
-
+        <button onclick="topFunction()" id="myBtn_top" title="Go to top"><img class="b2t" src="img/backtotop.png"></button>
 
         <div class="navbar">
           <div class="navbar-5">
@@ -570,4 +571,19 @@
       </div>
     </div>
   </body>
+  <script>
+    $(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#myBtn_top').fadeIn(); 
+        } else { 
+            $('#myBtn_top').fadeOut(); 
+        } 
+    }); 
+    $('#myBtn_top').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+  </script>
 </html>

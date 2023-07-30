@@ -1885,31 +1885,66 @@ $(document).ready(function(){
 });
     </script>
     <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
+      let slideIndex = 0;
+      showSlides();
+      // showSlides(slideIndex);
       
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
+      // function plusSlides(n) {
+      //   showSlides(slideIndex += n);
+      // }
       
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
+      // function currentSlide(n) {
+      //   showSlides(slideIndex = n);
+      // }
       
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
+      // function showSlides(n) {
+      //   let i;
+      //   let slides = document.getElementsByClassName("mySlides");
+      //   let dots = document.getElementsByClassName("dot");
+      //   if (n > slides.length) {slideIndex = 1}    
+      //   if (n < 1) {slideIndex = slides.length}
+      //   for (i = 0; i < slides.length; i++) {
+      //     slides[i].style.display = "none";  
+      //   }
+      //   for (i = 0; i < dots.length; i++) {
+      //     dots[i].className = dots[i].className.replace(" active", "");
+      //   }
+      //   slides[slideIndex-1].style.display = "block";  
+      //   dots[slideIndex-1].className += " active";
+      // }
+
+      function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
       }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+
+    var image = document.querySelector('.environment-health-icon');
+
+    image.onclick = function() {
+        image.src = 'img/radio1.png';
+    };
+    function toggleImage() {
+   var img1 = "http://placehold.it/350x150";
+   var img2 = 'img/radio1.png';
+   
+   var imgElement = document.getElementById('toggleImage');
+
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
+}
+  
       </script>
+
+
 </html>

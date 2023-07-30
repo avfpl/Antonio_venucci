@@ -3009,7 +3009,7 @@ position: absolute;
   
 }
 .home-3 .overlap-group {
-  height: 2100px;
+  height: 2400px;
   left: 0;
   position: absolute;
   top: 522px;
@@ -3136,16 +3136,16 @@ position: absolute;
 .home-3 .timeline-item-3 {
   align-items: flex-start;
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
   position: relative;
-  width: 516px;
+  width: 70%;
 }
 .home-3 .timeline-item {
   align-items: flex-start;
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
   position: relative;
-  width: 516px;
+  width: 70%;
 }
 
 .home-3 .placeholder-image-4 {
@@ -3307,6 +3307,12 @@ position: absolute;
   margin-top: 809px;
   min-height: 552px;
   width: 100%;
+}
+
+.home-3 .overlap-group6 {
+  height: 3574px;
+  margin-top: 252px;
+
 }
 
 }

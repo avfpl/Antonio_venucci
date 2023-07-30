@@ -428,6 +428,29 @@
   margin-top: -1.00px;
   position: relative;
   text-align: center;
+  color: var(--cloud-burst);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+
+@media only screen and (max-width: 600px){
+.we-align-with-your-b {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 57.6px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    color: var(--cloud-burst);
+    font-family: var(--font-family-roboto);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+}
 }
 
 /* .group-3 {
