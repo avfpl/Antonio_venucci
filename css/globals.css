@@ -200,7 +200,7 @@
   display: flex;
   gap: 80px;
   height: 1325px;
-  min-width: 1312px;
+  /* min-width: 1312px; */
 }
 
 .frequently-asked-questions {
