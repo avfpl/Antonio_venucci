@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css2/globals.css" />
     <link rel="stylesheet" type="text/css" href="css/global.css" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   </head>
   <body style="margin: 0; background: #ffffff">
     <!-- <input type="hidden" id="anPageName" name="page" value="home-3" /> -->
@@ -256,13 +257,10 @@
 
 
           <!-- new div -->
-          <div class="group-20" style="display: none;">
+          <div class="group-20">
           <div class="row-4">
             <div class="column-9 column-10">
-              <div class="feature-tab feature">
-                <div class="number-1 number-3">01</div>
-                <div class="name-1 name-3 roboto-bold-glacier-24px">Blake Stitch</div>
-              </div>
+              
               <div class="content-20">
                 <p class="material-science-f roboto-semi-bold-tuatara-16px">
                   Material Science / Footwear &amp; Accessories
@@ -278,11 +276,38 @@
                     </p>
                   </div>
                 </div>
-                <img class="placeholder-image-5" src="img/placeholder---image-8.png" alt="Placeholder / Image" />
+                <div class="feature-tab feature " id="1">
+                  <div class="number-1 number-3 active_txt">01</div>
+                  <div class="active_txt">Footwear / Goodyear Welted</div>
+                </div>
+                <div class="divider"></div>
+              <div class="feature-tab feature " id="2">
+                <div class="number-2 inactive_txt1">02</div>
+                <div class="number-2 inactive_txt1">Footwear / Blake Stitch</div>
+              </div>
+              <div class="divider"></div>
+              <div class="feature-tab feature " id="3">
+                <div class="number-3 inactive_txt2">03</div>
+                <div class="number-3 inactive_txt2">Footwear / Goodyear Welted</div>
+              </div>
+              <div class="divider"></div>
+              <div class="feature-tab feature " id="4">
+                <div class="number-4 inactive_txt3">04</div>
+                <div class="number-4 inactive_txt3">
+                  Footwear / Blake Stitched
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="feature-tab feature" id="5">
+                <div class="number-5 inactive_txt4">05</div>
+                <div class="number-5 inactive_txt4">Accessories</div>
+              </div>
+                <!-- <img class="placeholder-image-5" src="img/placeholder---image-8.png" alt="Placeholder / Image" /> -->
               </div>
             </div>
             <div class="feature-wrapper feature">
-              <div class="divider"></div>
+              <img class="placeholder-image-5" src="img/matrial.jpg" alt="Placeholder / Image" />
+              <!-- <div class="divider"></div>
               <div class="feature-tab feature">
                 <div class="number roboto-bold-cloud-burst-24px">02</div>
                 <div class="footwear-blake-stitch footwear-blake roboto-bold-glacier-24px">Footwear / Blake Stitch</div>
@@ -307,7 +332,7 @@
               <div class="feature-tab feature">
                 <div class="number roboto-bold-cloud-burst-24px">05</div>
                 <div class="accessories roboto-bold-glacier-24px">Accessories</div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -375,7 +400,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="actions"></div>
+                <!-- <div class="actions"></div> -->
               </div>
             </div>
             <div class="layout-252 layout">
@@ -572,6 +597,110 @@
     </div>
   </body>
   <script>
+//     $(function () {
+//     $("#1").click(function () {
+//         $(".active_txt").switchClass("active_txt", "inactive_txt");
+//         $(".inactive_txt").switchClass("inactive_txt", "active_txt");
+//     });
+// });
+
+$('#1').on('click', function(){
+  $('.placeholder-image-5').attr('src', 'img/matrial.jpg');
+// Save matches to a variable
+var classJSK  = $(".active_txt:not(.inactive_txt)");
+var classJSK2 = $(".inactive_txt:not(.active_txt)");
+
+classJSK.each(function(){
+   $(this).addClass('inactive_txt').removeClass('active_txt');
+});
+
+classJSK2.each(function(){
+   $(this).removeClass('inactive_txt').addClass('active_txt');
+  //  $(this).removeClass('inactive_txt1').addClass('active_txt1');
+});
+
+});
+
+
+$('#2').on('click', function(){
+  $('.placeholder-image-5').attr('src', 'img/marterial2.jpg');
+  $('.designed-with-perfection').text('Cemented')
+  $('.name-2').text('Cemented footwear is a type of construction where the outsole is glued to the insole, rather than stitched. This method is known for being less expensive and well suited for mass production as the process can be easily automated.')
+// Save matches to a variable
+var classJSK  = $(".active_txt1:not(.inactive_txt1)");
+var classJSK2 = $(".inactive_txt1:not(.active_txt1)");
+
+classJSK.each(function(){
+   $(this).addClass('inactive_txt1').removeClass('active_txt1');
+});
+
+classJSK2.each(function(){
+   $(this).removeClass('inactive_txt1').addClass('active_txt1');
+});
+
+});
+
+
+
+$('#3').on('click', function(){
+  $('.placeholder-image-5').attr('src', 'img/material3.jpg');
+
+
+  $('.designed-with-perfection').text('Blake Stitched')
+  $('.name-2').text('Blake stitch footwear is a construction method that uses single stitching for a lightweight, flexible and close-to-foot fit. Its also known for its sleek look, fast production and suitability for leather soles. It also provides more comfort by having the stitching done inside the shoe.')
+// Save matches to a variable
+var classJSK  = $(".active_txt2:not(.inactive_txt2)");
+var classJSK2 = $(".inactive_txt2:not(.active_txt2)");
+
+classJSK.each(function(){
+   $(this).addClass('inactive_txt2').removeClass('active_txt2');
+});
+
+classJSK2.each(function(){
+   $(this).removeClass('inactive_txt2').addClass('active_txt2');
+});
+
+});
+
+
+$('#4').on('click', function(){
+  $('.placeholder-image-5').attr('src', 'img/material4.jpg');
+
+  $('.designed-with-perfection').text('Artisanal')
+  $('.name-2').text('This is the traditional method of making leather handbags, where the leather is cut and sewn together by hand using a needle and thread. This method is labor-intensive and results in a high-quality, durable product.')
+// Save matches to a variable
+var classJSK  = $(".active_txt3:not(.inactive_txt3)");
+var classJSK2 = $(".inactive_txt3:not(.active_txt3)");
+
+classJSK.each(function(){
+   $(this).addClass('inactive_txt3').removeClass('active_txt3');
+});
+
+classJSK2.each(function(){
+   $(this).removeClass('inactive_txt3').addClass('active_txt3');
+});
+
+});
+
+
+$('#5').on('click', function(){
+  $('.placeholder-image-5').attr('src', 'img/material5.png');
+  $('.designed-with-perfection').text('Combination')
+  $('.name-2').text('Embracing the best of both worlds, combination method handbags embody timeless craftsmanship and contemporary flair. Each piece is carefully crafted with hand-cut leather, intricate hand-sewn details, and modern design elements, resulting in an exquisite accessory.')
+// Save matches to a variable
+var classJSK  = $(".active_txt4:not(.inactive_txt4)");
+var classJSK2 = $(".inactive_txt4:not(.active_txt4)");
+
+classJSK.each(function(){
+   $(this).addClass('inactive_txt4').removeClass('active_txt4');
+});
+
+classJSK2.each(function(){
+   $(this).removeClass('inactive_txt4').addClass('active_txt4');
+});
+
+});
+ 
     $(document).ready(function(){ 
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 100) { 

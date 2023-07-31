@@ -13,8 +13,94 @@
     <link rel="stylesheet" type="text/css" href="css/global.css" />
     <!-- <link rel="stylesheet" type="text/css" href="css/men2.css" /> -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
-    
     <style>
+      /* img {
+          width: 100%;
+      } */
+      .img_slide {
+          width: 100%;
+      }
+
+      .height {
+          height: 10px;
+      }
+
+      /* Image-container design */
+      .image-container {
+          max-width: 70%;
+          position: relative;
+          margin: auto;
+      }
+
+      .next {
+          right: 0;
+      }
+
+      /* Next and previous icon design */
+      .previous,
+      .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          padding: 10px;
+          margin-top: -25px;
+      }
+
+      /* caption decorate */
+      .captionText {
+          color: #000000;
+          font-size: 14px;
+          position: absolute;
+          padding: 12px 12px;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+      }
+
+      /* Slider image number */
+      .slideNumber {
+          background-color: #5574C5;
+          color: white;
+          border-radius: 25px;
+          right: 0;
+          opacity: .5;
+          margin: 5px;
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          font-weight: bold;
+          font-size: 24px;
+          position: absolute;
+      }
+
+      .fa {
+          font-size: 32px;
+      }
+
+      .fa:hover {
+          transform: rotate(360deg);
+          transition: 1s;
+          color: white;
+      }
+
+      .footerdot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbbbbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.5s ease;
+      }
+
+      .active,
+      .footerdot:hover {
+          background-color: black;
+      }
+  </style>
+    <style>
+      
       .accordion {
         background-color: #eee;
         color: #444;
@@ -941,16 +1027,69 @@
               </div>
             </div>
           </div>
-          <div class="placeholder-image-5">
+          <div class="image-container">
+            <div class="slide">
+                <!-- <div class="slideNumber">1</div> -->
+                <img class="img_slide" src=
+    "img/Property 1=Default.png">
+            </div>
+            <div class="slide">
+                <!-- <div class="slideNumber">2</div> -->
+                <img class="img_slide" src=
+    "img/Property 1=Variant2.png">
+            </div>
+            <div class="slide">
+                <!-- <div class="slideNumber">3</div> -->
+                <img class="img_slide" src=
+    "img/Property 1=Variant3.png">
+            </div>
+
+            <div class="slide">
+              <!-- <div class="slideNumber">3</div> -->
+              <img class="img_slide" src=
+  "img/Property 1=Variant4.png">
+          </div>
+
+
+          <div class="slide">
+            <!-- <div class="slideNumber">3</div> -->
+            <img class="img_slide" src=
+"img/Property 1=Variant5.png">
+        </div>
+     
+            <!-- Next and Previous icon to change images -->
+            <a class="previous" onclick="moveSlides(-1)">
+                <!-- <img class="button-2" src="img/button.svg" alt="Button" /> -->
+            </a>
+            <a class="next" onclick="moveSlides(1)">
+                <!-- <i class="fa fa-chevron-circle-right"></i> -->
+                <!-- <img class="button-2" src="img/button.svg" alt="Button" /> -->
+            </a>
+        </div>
+        <br>
+     
+        <div style="text-align:center">
+            <span class="footerdot" onclick="activeSlide(1)">
+            </span>
+            <span class="footerdot" onclick="activeSlide(2)">
+            </span>
+            <span class="footerdot" onclick="activeSlide(3)">
+            </span>
+            <span class="footerdot" onclick="activeSlide(4)">
+            </span>
+            <span class="footerdot" onclick="activeSlide(5)">
+            </span>
+        </div>
+          <!-- <div class="placeholder-image-5">
             <img class="button-2" src="img/button.svg" alt="Button" />
             <img class="button-2" src="img/button-1.svg" alt="Button" />
-          </div>
-          <div class="slider-dots">
+          </div> -->
+          <!-- <div class="slider-dots">
             <div class="dot"></div>
             <div class="slider-dots-item"></div>
             <div class="slider-dots-item"></div>
             <div class="slider-dots-item"></div>
-          </div>
+          </div> -->
         </div>
         <div class="overlap-group6">
           <div class="group-30">
@@ -1945,6 +2084,45 @@ $(document).ready(function(){
 }
   
       </script>
+
+<script>
+  let slideIndex2 = 1;
+  displaySlide(slideIndex2);
+
+  function moveSlides(n) {
+      displaySlide(slideIndex2 += n);
+  }
+
+  function activeSlide(n) {
+      displaySlide(slideIndex2 = n);
+  }
+
+  /* Main function */
+  function displaySlide(n) {
+      let i;
+      let totalslides =
+          document.getElementsByClassName("slide");
+
+      let totaldots =
+          document.getElementsByClassName("footerdot");
+
+      if (n > totalslides.length) {
+          slideIndex2 = 1;
+      }
+      if (n < 1) {
+          slideIndex2 = totalslides.length;
+      }
+      for (i = 0; i < totalslides.length; i++) {
+          totalslides[i].style.display = "none";
+      }
+      for (i = 0; i < totaldots.length; i++) {
+          totaldots[i].className =
+              totaldots[i].className.replace(" active", "");
+      }
+      totalslides[slideIndex2 - 1].style.display = "block";
+      totaldots[slideIndex2 - 1].className += " active";
+  }
+</script>
 
 
 </html>

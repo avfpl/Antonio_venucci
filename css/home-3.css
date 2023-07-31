@@ -6,7 +6,7 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  min-height: 11270px;
+  min-height: 10270px;
   overflow-x: hidden;
   width: 100%;
 }
@@ -769,6 +769,23 @@
   position: absolute;
   top: 0;
   width: 100%;
+}
+.bg{
+  background-image:url(../img/Property\ 1=Default.png);
+}
+.new-bg{
+  background-image:url(../img/Property\ 1=Variant2.png);
+}
+.new-bg1{
+  background-image:url(../img/Property\ 1=Variant3.png);
+}
+
+.new-bg2{
+  background-image:url(../img/Property\ 1=Variant4.png);
+}
+
+.new-bg3{
+  background-image:url(../img/Property\ 1=Variant5.png);
 }
 
 .home-3 .button-2 {
